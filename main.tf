@@ -19,7 +19,7 @@ variable "ami-us" {
 provider "aws" {
   region = "eu-west-1"
   alias  = "aws-uk"
-   access_key = var.access_key
+  access_key = var.access_key
   secret_key = var.secret_ke
 }
 
